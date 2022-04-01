@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="After each timeUnit display content of the PetriDish">
+    <Position X="5.094" Y="0.5" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="PetriDish.LifeForm">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAQAAABCkAAAAAAAAAAAAAAAABAAAAAIAAAA=</HashCode>
+      <FileName>LifeForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Position" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PetriDish.Bacillus">
+    <Position X="1" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAABCAAAAAAAAAAAAAAAAABAAAAAIAAAA=</HashCode>
+      <FileName>Bacillus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetriDish.Coccus">
+    <Position X="2.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAABCAAAAAAAAAAAAAAAAABAAAAAIAAAA=</HashCode>
+      <FileName>Coccus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetriDish.Spirillum">
+    <Position X="4.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAABCAAAAAAAAAAAAAAAAABAAAAAIAAAA=</HashCode>
+      <FileName>Spirillum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetriDish.Position">
+    <Position X="7.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Position.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetriDish.PetiDish">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAYAIAAIEAAAAAAAAAAAAAAAAAAAIAEAAAAA=</HashCode>
+      <FileName>PetriDish.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Bacterias" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
